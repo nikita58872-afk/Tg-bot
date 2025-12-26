@@ -1,0 +1,32 @@
+2025-12-05 19:57:46 [INFO] main:129 - Запуск бота отправки изображения на вебхук
+2025-12-05 19:57:46 [DEBUG] send_image_to_webhook:64 - Старт отправки изображения на вебхук
+2025-12-05 19:57:46 [DEBUG] send_image_to_webhook:78 - Путь к файлу: C:\Users\Nikita Savenko\Downloads\photo_2025-06-28_14-24-03.jpg
+2025-12-05 19:57:46 [DEBUG] send_image_to_webhook:79 - Размер файла (байт): 148528
+2025-12-05 19:57:46 [DEBUG] send_image_to_webhook:80 - Имя (name): My cool photo
+2025-12-05 19:57:46 [DEBUG] send_image_to_webhook:81 - Filename (для multipart): cool_photo.jpg
+2025-12-05 19:57:46 [DEBUG] send_image_to_webhook:82 - Webhook URL: https://e66e85e1-eb11-47ff-92db-4f211fbf4d31.tunnel4.com/webhook/81c0ce22-8981-47e6-a1f3-6dac7f3bfff9
+2025-12-05 19:57:46 [DEBUG] send_image_to_webhook:89 - Тело формы (data): {'name': 'My cool photo', 'filename': 'cool_photo.jpg'}
+2025-12-05 19:57:46 [DEBUG] send_image_to_webhook:98 - Структура files для multipart: {'file': ('cool_photo.jpg', 'image/jpeg')}
+2025-12-05 19:57:46 [INFO] send_image_to_webhook:101 - Отправляю POST-запрос на вебхук...
+2025-12-05 19:57:46 [DEBUG] urllib3.connectionpool:1049 - Starting new HTTPS connection (1): e66e85e1-eb11-47ff-92db-4f211fbf4d31.tunnel4.com:443
+2025-12-05 19:57:47 [DEBUG] urllib3.connectionpool:544 - https://e66e85e1-eb11-47ff-92db-4f211fbf4d31.tunnel4.com:443 "POST /webhook/81c0ce22-8981-47e6-a1f3-6dac7f3bfff9 HTTP/1.1" 200 None
+2025-12-05 19:57:47 [INFO] send_image_to_webhook:110 - Ответ сервера: код 200
+2025-12-05 19:57:47 [DEBUG] send_image_to_webhook:113 - Тело ответа (первые 1000 символов): '{"message":"Workflow was started"}'
+2025-12-05 19:57:47 [INFO] send_image_to_webhook:120 - Изображение успешно отправлено на вебхук.
+2025-12-05 19:57:47 [INFO] main:142 - Завершение работы бота
+2025-12-05 19:58:16 [INFO] main:129 - Запуск бота отправки изображения на вебхук
+2025-12-05 19:58:16 [DEBUG] send_image_to_webhook:64 - Старт отправки изображения на вебхук
+2025-12-05 19:58:16 [DEBUG] send_image_to_webhook:78 - Путь к файлу: C:\Users\Nikita Savenko\Downloads\photo_2025-06-28_14-24-03.jpg
+2025-12-05 19:58:16 [DEBUG] send_image_to_webhook:79 - Размер файла (байт): 148528
+2025-12-05 19:58:16 [DEBUG] send_image_to_webhook:80 - Имя (name): My cool photo
+2025-12-05 19:58:16 [DEBUG] send_image_to_webhook:81 - Filename (для multipart): cool_photo.jpg
+2025-12-05 19:58:16 [DEBUG] send_image_to_webhook:82 - Webhook URL: https://e66e85e1-eb11-47ff-92db-4f211fbf4d31.tunnel4.com/webhook-test/81c0ce22-8981-47e6-a1f3-6dac7f3bfff9
+2025-12-05 19:58:16 [DEBUG] send_image_to_webhook:89 - Тело формы (data): {'name': 'My cool photo', 'filename': 'cool_photo.jpg'}
+2025-12-05 19:58:16 [DEBUG] send_image_to_webhook:98 - Структура files для multipart: {'file': ('cool_photo.jpg', 'image/jpeg')}
+2025-12-05 19:58:16 [INFO] send_image_to_webhook:101 - Отправляю POST-запрос на вебхук...
+2025-12-05 19:58:16 [DEBUG] urllib3.connectionpool:1049 - Starting new HTTPS connection (1): e66e85e1-eb11-47ff-92db-4f211fbf4d31.tunnel4.com:443
+2025-12-05 19:58:17 [DEBUG] urllib3.connectionpool:544 - https://e66e85e1-eb11-47ff-92db-4f211fbf4d31.tunnel4.com:443 "POST /webhook-test/81c0ce22-8981-47e6-a1f3-6dac7f3bfff9 HTTP/1.1" 200 None
+2025-12-05 19:58:17 [INFO] send_image_to_webhook:110 - Ответ сервера: код 200
+2025-12-05 19:58:17 [DEBUG] send_image_to_webhook:113 - Тело ответа (первые 1000 символов): '{"message":"Workflow was started"}'
+2025-12-05 19:58:17 [INFO] send_image_to_webhook:120 - Изображение успешно отправлено на вебхук.
+2025-12-05 19:58:17 [INFO] main:142 - Завершение работы бота

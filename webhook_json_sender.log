@@ -1,0 +1,24 @@
+2025-12-05 20:01:04 [INFO] main:120 - Запуск бота отправки JSON на вебхук
+2025-12-05 20:01:04 [DEBUG] main:121 - Текущее время: 2025-12-05T20:01:04.193687
+2025-12-05 20:01:04 [DEBUG] send_json_to_webhook:70 - Старт отправки JSON на вебхук
+2025-12-05 20:01:04 [DEBUG] send_json_to_webhook:73 - Собранный payload: {'request_id': '33320249', 'status': 'success', 'response_type': 'image', 'cost': 9.75, 'result': ['https://gen-api.storage.yandexcloud.net/input_files/1764877163_6931e36b4baef.png'], 'webhookUrl': 'https://aae66d6d-99f3-4060-9421-bbffc676ecf4.tunnel4.com/webhook/81c0ce22-8981-47e6-a1f3-6dac7f3bfff9', 'executionMode': 'production'}
+2025-12-05 20:01:04 [DEBUG] send_json_to_webhook:89 - Заголовки запроса: {'Content-Type': 'application/json', 'User-Agent': 'GuzzleHttp/7', 'X-Real-IP': '158.160.137.79', 'X-Forwarded-For': '158.160.137.79', 'X-Forwarded-Host': 'aae66d6d-99f3-4060-9421-bbffc676ecf4.tunnel4.com', 'X-Forwarded-Server': 'aae66d6d-99f3-4060-9421-bbffc676ecf4.tunnel4.com', 'X-Forwarded-Port': '443', 'X-Forwarded-Proto': 'https'}
+2025-12-05 20:01:04 [INFO] send_json_to_webhook:90 - Отправляю POST-запрос на вебхук https://aae66d6d-99f3-4060-9421-bbffc676ecf4.tunnel4.com/webhook/81c0ce22-8981-47e6-a1f3-6dac7f3bfff9
+2025-12-05 20:01:04 [DEBUG] urllib3.connectionpool:1049 - Starting new HTTPS connection (1): aae66d6d-99f3-4060-9421-bbffc676ecf4.tunnel4.com:443
+2025-12-05 20:01:04 [DEBUG] urllib3.connectionpool:544 - https://aae66d6d-99f3-4060-9421-bbffc676ecf4.tunnel4.com:443 "POST /webhook/81c0ce22-8981-47e6-a1f3-6dac7f3bfff9 HTTP/1.1" 404 None
+2025-12-05 20:01:04 [INFO] send_json_to_webhook:103 - Ответ сервера: код 404
+2025-12-05 20:01:04 [DEBUG] send_json_to_webhook:105 - Тело ответа (первые 1000 символов): 'Session not Found! (('
+2025-12-05 20:01:04 [ERROR] send_json_to_webhook:108 - Сервер вернул ошибку: 404 - Not Found
+2025-12-05 20:01:04 [INFO] main:129 - Завершение работы бота
+2025-12-05 20:01:22 [INFO] main:120 - Запуск бота отправки JSON на вебхук
+2025-12-05 20:01:22 [DEBUG] main:121 - Текущее время: 2025-12-05T20:01:22.500503
+2025-12-05 20:01:22 [DEBUG] send_json_to_webhook:70 - Старт отправки JSON на вебхук
+2025-12-05 20:01:22 [DEBUG] send_json_to_webhook:73 - Собранный payload: {'request_id': '33320249', 'status': 'success', 'response_type': 'image', 'cost': 9.75, 'result': ['https://gen-api.storage.yandexcloud.net/input_files/1764877163_6931e36b4baef.png'], 'webhookUrl': 'https://e66e85e1-eb11-47ff-92db-4f211fbf4d31.tunnel4.com/webhook-test/81c0ce22-8981-47e6-a1f3-6dac7f3bfff9', 'executionMode': 'production'}
+2025-12-05 20:01:22 [DEBUG] send_json_to_webhook:89 - Заголовки запроса: {'Content-Type': 'application/json', 'User-Agent': 'GuzzleHttp/7', 'X-Real-IP': '158.160.137.79', 'X-Forwarded-For': '158.160.137.79', 'X-Forwarded-Host': 'aae66d6d-99f3-4060-9421-bbffc676ecf4.tunnel4.com', 'X-Forwarded-Server': 'aae66d6d-99f3-4060-9421-bbffc676ecf4.tunnel4.com', 'X-Forwarded-Port': '443', 'X-Forwarded-Proto': 'https'}
+2025-12-05 20:01:22 [INFO] send_json_to_webhook:90 - Отправляю POST-запрос на вебхук https://e66e85e1-eb11-47ff-92db-4f211fbf4d31.tunnel4.com/webhook-test/81c0ce22-8981-47e6-a1f3-6dac7f3bfff9
+2025-12-05 20:01:22 [DEBUG] urllib3.connectionpool:1049 - Starting new HTTPS connection (1): e66e85e1-eb11-47ff-92db-4f211fbf4d31.tunnel4.com:443
+2025-12-05 20:01:22 [DEBUG] urllib3.connectionpool:544 - https://e66e85e1-eb11-47ff-92db-4f211fbf4d31.tunnel4.com:443 "POST /webhook-test/81c0ce22-8981-47e6-a1f3-6dac7f3bfff9 HTTP/1.1" 200 None
+2025-12-05 20:01:22 [INFO] send_json_to_webhook:103 - Ответ сервера: код 200
+2025-12-05 20:01:22 [DEBUG] send_json_to_webhook:105 - Тело ответа (первые 1000 символов): '{"message":"Workflow was started"}'
+2025-12-05 20:01:22 [INFO] send_json_to_webhook:111 - JSON успешно отправлен на вебхук.
+2025-12-05 20:01:22 [INFO] main:129 - Завершение работы бота
