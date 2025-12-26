@@ -71,10 +71,6 @@ BOT_TOKEN=YOUR_TELEGRAM_BOT_TOKEN
 
 MANAGER_KEYS=key_xxx,key_yyy,key_zzz
 ADMIN_CHAT_ID=
-
-IMG_BASE=https://alltpms.ru/img/
-SITE_BASE=https://alltpms.ru/
-
 LEADS_CSV=leads.csv
 MANAGERS_CSV=managers.csv
 
@@ -144,3 +140,4 @@ brand_aliases.xlsx — алиасы брендов
 
 Проект используется в коммерческих целях.
 Все права принадлежат владельцу проекта.
+
